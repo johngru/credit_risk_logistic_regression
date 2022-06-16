@@ -92,9 +92,9 @@ After initializing the Logistic Regression models, the loan data is used to fit 
 * Machine Learning Logistic Regression Model with Original Data:
  
   | Loan Health | Accuracy | Precision  | Recall | f1 | 
-| ---:          |  :----:  |   :---:    | :---:  |:---:  |
-| Healthy (0):  |   95 %  |     100 %   |   99 % | 100 % |
-| High-Risk (1):|   -same-  |    85 %   |   91 % | 88 %  |
+  | -------:          |  :--------:  |   :------:    | :------:  |:-------:  |
+  | Healthy (0):  |   95 %  |     100 %   |   99 % | 100 % |
+  | High-Risk (1):|   -same-  |    85 %   |   91 % | 88 %  |
 
     * The logistic regression correctly predicts both the healthy loan and high-risk loans with an accuracy of around 95%.
 
@@ -106,9 +106,9 @@ After initializing the Logistic Regression models, the loan data is used to fit 
 * Machine Learning Logistic Regression Model with Resampled Training Data:
 
   | Loan Health | Accuracy | Precision  | Recall | f1 | 
-| ---:          |  :----:  |   :---:    | :---:  |:---:  |
-| Healthy (0):  |   99 %  |     100 %   |   99 % | 100 % |
-| High-Risk (1):|   -same-  |    84 %   |   99 % | 91 %  |
+  | --------:          |  :-------:  |   :------:    | :------:  |:-------:  |
+  | Healthy (0):  |   99 %  |     100 %   |   99 % | 100 % |
+  | High-Risk (1):|   -same-  |    84 %   |   99 % | 91 %  |
 
     * The logistic regression, fit with oversampled date, has a much higher accuracy than the original model with an accuracy of around 99%.
 
